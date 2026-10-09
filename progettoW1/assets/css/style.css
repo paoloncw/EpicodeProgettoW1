@@ -37,8 +37,12 @@ main section {
 }
 
 main section h2::before {
-    content: "■";
+    content: "\f185";
+    font-family: "font awesome 6 free";
+    font-weight: bold;
     color: #ff6f00;
+    margin-right: 8px;
+    font-size: 1.5rem;
 }
 
 body {
@@ -204,6 +208,12 @@ button:hover {
     font-weight: bold;
     line-height: 3;
     text-align: center;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    border-radius: 6px 6px 0 0;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-bottom: none;
+
 }
 
 #nav ul {
@@ -218,7 +228,7 @@ button:hover {
 
 #nav a:hover {
     color: #ff6f00;
-    background-color: rgba(67, 98, 26, 0.3);
+    background-color: rgba(0, 0, 0, 0.464);
 }
 
 .table {
