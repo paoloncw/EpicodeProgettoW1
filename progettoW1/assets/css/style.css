@@ -33,6 +33,7 @@ main section {
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
 }
 
 main section h2::before {
@@ -45,7 +46,7 @@ body {
     font-size: 16px;
     line-height: 1.7;
     color: #000000;
-    background-color: #ffffff;
+    background-color: #f4f1ec;
     margin: 0;
 }
 
@@ -68,7 +69,7 @@ body {
     font-size: 2.5rem;
     font-weight: bold;
     font-style: italic;
-    color: #f44a4a;
+    color: #ffffff;
 }
 
 .avatar {
@@ -81,9 +82,8 @@ body {
 }
 
 .tagline {
-    color: rgba(255, 0, 0, 0.848);
+    color: rgba(255, 255, 255, 0.848);
     font-style: italic;
-    background-color: rgba(0, 0, 0, 0.509);
 }
 
 h2 {
@@ -200,7 +200,7 @@ button:hover {
     padding: 8px 16px;
     margin: 0 4px;
     border-radius: 4px;
-    color: #53bf60;
+    color: #ffffff;
     font-weight: bold;
     line-height: 3;
     text-align: center;
