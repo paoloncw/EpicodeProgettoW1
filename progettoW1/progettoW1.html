@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mario Rossi Presentazione</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="../progettoW1/assets/css/style.css" />
 </head>
 
@@ -16,37 +18,39 @@
         </header>
         <nav id="nav">
             <ul>
-                <li><a href="#chisono">chi sono</a></li>
-                <li><a href="#competenze">competenze</a></li>
-                <li><a href="#esperienze">esperienze</a></li>
-                <li><a href="#progetti">progetti</a></li>
-                <li><a href="#contatti">contatti</a></li>
+                <li><a href="#chisono"><i class="fa-solid fa-user"></i> chi sono</a></li>
+                <li><a href="#competenze"><i class="fa-solid fa-code"></i> competenze</a></li>
+                <li><a href="#esperienze"><i class="fa-solid fa-briefcase"></i> esperienze</a></li>
+                <li><a href="#progetti"><i class="fa-solid fa-folder-open"></i> progetti</a></li>
+                <li><a href="#contatti"><i class="fa-solid fa-envelope"></i> contatti</a></li>
             </ul>
         </nav>
     </div>
+
     <main>
         <section id="chisono">
             <h2>Chi sono</h2>
             <img class="avatar"
                 src="https://www.modelli-di-curriculum.it/wp-content/uploads/2022/09/foto-per-curriculum.jpg"
-                alt="foto profilo" />
+                alt="Foto profilo di Mario Rossi" />
 
-            <p>Mi chiamo Mario Rossi e sto imparando a programmare. Studio sviluppo web con<b> Epicode </b>e ogni giorno
+            <p>Mi chiamo Mario Rossi e sto imparando a programmare. Studio sviluppo web con <b>Epicode</b> e ogni giorno
                 aggiungo qualcosa di nuovo a questa pagina. Mi piace lavorare in gruppo, leggere documentazione tecnica
-                e
-                capire come funzionano le cose.</p>
-            <p>Vivo a milano. Ho una formazione precedente in <i>lettere</i> e ora sto cambiando settore. Cerco un primo
+                e capire come funzionano le cose.</p>
+            <p>Vivo a Milano. Ho una formazione precedente in <i>lettere</i> e ora sto cambiando settore. Cerco un primo
                 ruolo come sviluppatore front end.</p>
         </section>
+
         <section id="competenze">
             <h2>Competenze</h2>
             <ul class="skill-list">
                 <li>HTML - struttura delle pagine</li>
                 <li>CSS - stile e impaginazione</li>
                 <li>Git e GitHub - versionamento del codice</li>
-                <li>Visual studio code - editor di lavoro</li>
+                <li>Visual Studio Code - editor di lavoro</li>
             </ul>
         </section>
+
         <section id="esperienze">
             <h2>Esperienze</h2>
             <p>Un riepilogo del mio percorso formativo e lavorativo recente</p>
@@ -68,38 +72,37 @@
                     <tr>
                         <td>2024-2025</td>
                         <td>libraio</td>
-                        <td>libreria centrale, Milano</td>
+                        <td>Libreria Centrale, Milano</td>
                     </tr>
                     <tr>
                         <td>2018-2022</td>
                         <td>studente di lettere</td>
-                        <td>Università degli studi di Milano</td>
+                        <td>Università degli Studi di Milano</td>
                     </tr>
                 </tbody>
             </table>
         </section>
+
         <section id="progetti">
             <h2>Progetti</h2>
-            <p>i lavori fatti durantele prime settimane di lavoro.</p>
+            <p>I lavori fatti durante le prime settimane di lavoro.</p>
+
             <article class="project">
                 <h3>Pagina ricetta</h3>
-                <p>una pagina con titolo, ingredienti e procedura. Esercizio di markup semantico applicato a un conenuto
-                    reale.
-                </p>
-                <p><a href="javascript:void(0)">vedi su GitHub</a></p>
+                <p>Una pagina con titolo, ingredienti e procedura. Esercizio di markup semantico applicato a un contenuto reale.</p>
+                <p><a href="#">Vedi su GitHub</a></p>
             </article>
 
             <article class="project">
                 <h3>Card di Presentazione</h3>
-                <p>un biglietto digitalo con nome, ruolo e link ai social. Esercizio di sintesi sulla struttura HTML.
-                </p>
-                <p><a href="javascript:void(0)">vedi su GitHub</a></p>
+                <p>Un biglietto digitale con nome, ruolo e link ai social. Esercizio di sintesi sulla struttura HTML.</p>
+                <p><a href="#">Vedi su GitHub</a></p>
             </article>
         </section>
 
         <section id="contatti">
             <h2>Contattami</h2>
-            <p>compila il form per scrivermi, ti rispondo entro 24 ore.</p>
+            <p>Compila il form per scrivermi, ti rispondo entro 24 ore.</p>
             <form action="#" method="post">
                 <label for="name">Nome</label>
                 <br>
@@ -115,7 +118,7 @@
                     <option value="Proposta">Proposta di lavoro</option>
                     <option value="Assistenza">Richiesta assistenza</option>
                     <option value="Accettazione">Accettazione domanda</option>
-                    <option value="Non">Non so più cosa inventarmi</option>
+                    <option value="Non">Altro</option>
                 </select>
                 <br><br>
                 <label for="date">Data preferita per la risposta</label>
@@ -124,18 +127,18 @@
                 <br><br>
                 <label for="messaggio">Messaggio</label>
                 <br>
-                <textarea id="messaggio" placeholder="Scrivi qui il tuo messaggio..." name="messaggio" rows="5"
-                    required></textarea>
+                <textarea id="messaggio" placeholder="Scrivi qui il tuo messaggio..." name="messaggio" rows="5" required></textarea>
                 <br><br>
                 <input type="checkbox" id="checkbox" name="checkbox" required>
-                <label for="checkbox">accetto di essere ricontattato all'indirizzo indicato</label>
+                <label for="checkbox">Accetto di essere ricontattato all'indirizzo indicato</label>
                 <br><br>
                 <button type="submit">Invia</button>
             </form>
         </section>
     </main>
+
     <footer id="sitefooter">
-        <p>&copy 2026 Mario Rossi</p>
+        <p>&copy; 2026 Mario Rossi</p>
     </footer>
 </body>
 
