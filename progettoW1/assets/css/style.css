@@ -55,11 +55,11 @@ body {
 }
 
 #ciao {
-    background-color: #333333;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.35);
     background-image: url(../img/header.jpg);
     background-size: cover;
     background-position: center;
-    color: #ffffff;
     text-align: center;
     border-bottom: 4px solid #ff6f00;
 }
@@ -82,7 +82,7 @@ body {
 }
 
 .tagline {
-    color: rgba(255, 255, 255, 0.848);
+    color: rgba(255, 255, 255, 1);
     font-style: italic;
 }
 
